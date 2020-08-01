@@ -29,40 +29,30 @@ h2 {
   font-family: 'Roboto Mono', monospace;
 }
 
-button {
-  padding: 15px 30px;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.flex-container > div {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.carousel-container {
+  display: initial;
+  width: 100%;
+}
+
+.carousel {
+  border: 1px solid orange;
   border-radius: 4px;
-  border: none;
-  transition: box-shadow 0.3s;
-  cursor: pointer;
   background-color: orange;
-  outline: none;
 }
 
-button:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-button:active {
-  background-color: #d68e09;
-  border: none;
-}
-
-.xml-area {
-  line-height: 23px;
-  font-family: 'Roboto Mono', monospace;
-  word-break: break-all;
-  padding: 20px;
-  color: whitesmoke;
-  border-radius: 6px;
-  margin-top: 20px;
-  width: 50%;
-  height: 500px;
-  background-color: #474747;
-}
-
-.xml-area > span {
-  color: orange;
+.carousel img {
+  display: block;
+  height: 200px;
+  border: 1px solid orange;
 }

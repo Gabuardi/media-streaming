@@ -5,6 +5,7 @@ const APP = express();
 const PORT = 3000;
 
 APP.use(express.static('public'));
+APP.use(express.static('resources'));
 APP.use(fileUpload());
 
 APP.listen(PORT, () => console.log(`- || APP RUNNING ||--> http://localhost:${PORT}`));
