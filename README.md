@@ -1,5 +1,5 @@
-# xml-parser-app
-A dirty app to parse a given xml file to a string separated by "|" characters
+# media-streaming-app
+A dirty app to visualize and deliver media files
 
 # Get Started
 1. Clone repository
